@@ -1,0 +1,6 @@
+pyproject.toml
+Module_folder/sphinx_test.egg-info/PKG-INFO
+Module_folder/sphinx_test.egg-info/SOURCES.txt
+Module_folder/sphinx_test.egg-info/dependency_links.txt
+Module_folder/sphinx_test.egg-info/requires.txt
+Module_folder/sphinx_test.egg-info/top_level.txt

@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: sphinx-test
+Version: 0.1.0
+Summary: A test project for Sphinx documentation
+Author-email: Your Name <your.email@example.com>
+Project-URL: Homepage, https://yourhomepage.com/
+Project-URL: Documentation, https://yourdocumentation.com/
+Project-URL: Repository, https://github.com/yourusername/sphinx-test
+Keywords: sphinx,documentation
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: sphinx
+Requires-Dist: sphinx-rtd-theme
+Requires-Dist: myst-parser
