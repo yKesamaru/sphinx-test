@@ -22,6 +22,7 @@ release = '0.1'
 extensions = [
     'sphinx.ext.napoleon',
     'sphinx.ext.autodoc',
+    'sphinx_wagtail_theme'
 ]
 # Napoleon settings
 napoleon_google_docstring = True
@@ -44,6 +45,20 @@ language = 'ja'
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
 
 html_static_path = ['_static']
-html_theme = 'sphinx_rtd_theme'
-html_logo = 'https://raw.githubusercontent.com/yKesamaru/FACE01_DEV/master/assets/images/Logo_dist.png'
-html_favicon = 'https://raw.githubusercontent.com/yKesamaru/FACE01_DEV/master/assets/images/Logo.ico'
+# html_theme = 'sphinx_rtd_theme'
+# html_logo = 'https://raw.githubusercontent.com/yKesamaru/sphinx_documentation/master/assets/logo.png'
+# html_favicon = 'https://raw.githubusercontent.com/yKesamaru/sphinx_documentation/master/assets/logo.ico'
+html_theme = 'sphinx_wagtail_theme'
+html_theme_options = dict(
+    project_name="SPHINX-TEST",
+    logo="https://raw.githubusercontent.com/yKesamaru/sphinx_documentation/master/assets/logo.png",
+    logo_alt="logo",
+    logo_height=50,
+    logo_width=50,
+    github_url="https://github.com/yKesamaru/sphinx_documentation/tree/master",
+    footer_links=",".join([
+        "About Us|https://pypi.org/project/sphinx-wagtail-theme/",
+        "wagtail github|https://github.com/wagtail/sphinx-wagtail-theme",
+        "wagtail document|https://sphinx-wagtail-theme.readthedocs.io/en/latest/",
+    ]),
+)
