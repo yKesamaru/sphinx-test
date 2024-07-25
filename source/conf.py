@@ -33,7 +33,7 @@ autodoc_default_options = {
     'private-members': True,
     'special-members': True,
     'inherited-members': True,
-    'show-inheritance': True,
+    'show-inheritance': True
 }
 
 templates_path = ['_templates']
