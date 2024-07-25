@@ -6,7 +6,7 @@ on:
         - '**'  # 全てのブランチでトリガー
 
 permissions:
-  contents: read
+  contents: write  # 必要な権限を設定
   id-token: write
   pages: write
 
